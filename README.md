@@ -34,20 +34,6 @@ Ensure you have the following installed:
 * Python 3.8 or higher
 * Git
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/multimodal-sarcasm-detection.git
-cd multimodal-sarcasm-detection
-```
-
-### Create a Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
 ### Install Dependencies
 
 ```bash
