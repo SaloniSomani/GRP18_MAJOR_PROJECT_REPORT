@@ -1,5 +1,5 @@
 
-# Multimodal Sarcasm Detection
+#  Multimodal Sarcasm Detection
 
 ##  Project Overview
 
@@ -25,7 +25,7 @@ This project employs a multimodal approach, integrating state-of-the-art models 
 
 The features extracted from each modality are fused to perform accurate sarcasm classification.
 
-##  Installation
+## Installation
 
 ### Prerequisites
 
@@ -33,6 +33,20 @@ Ensure you have the following installed:
 
 * Python 3.8 or higher
 * Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/multimodal-sarcasm-detection.git
+cd multimodal-sarcasm-detection
+```
+
+### Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### Install Dependencies
 
@@ -70,20 +84,9 @@ data/
 └── context_videos/
 ```
 
-### Training the Model
-
-```bash
-python train.py --data_dir data/ --epochs 20 --batch_size 32
-```
-
-### Evaluating the Model
-
-```bash
-python evaluate.py --model_path saved_models/model.pth --data_dir data/
-```
-
 ---
 
 *This project leverages the MUStARD++ Balanced dataset for advancing research in multimodal sarcasm detection.*
 
 ---
+
