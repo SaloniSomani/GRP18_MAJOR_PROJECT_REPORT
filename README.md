@@ -7,7 +7,7 @@
 
 ##  Dataset: MUStARD++ Balanced
 
-The [MUStARD++ Balanced dataset](https://github.com/cfiltnlp/MUStARD_Plus_Plus) is a curated collection designed for multimodal sarcasm detection research. It comprises:
+The MUStARD++ Balanced dataset is a curated collection designed for multimodal sarcasm detection research. It comprises:
 
 * **Textual Transcripts**: Verbatim transcriptions of dialogues from the TV show *House MD*.
 * **Utterance Video Clips**: Short video segments focusing on individual utterances, capturing facial expressions and gestures.
